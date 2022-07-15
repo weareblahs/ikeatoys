@@ -16,3 +16,6 @@ This webpage contacts the JSON API of IKEA Malaysia to get the stock information
 
 ## Where's the page?
 [Here](https://weareblahs.github.io/ikeasharkcheck).
+
+# Other stuffs
+[License](https://github.com/weareblahs/ikeasharkcheck/blob/main/LICENSE.md)
