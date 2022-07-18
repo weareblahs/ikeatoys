@@ -106,4 +106,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ```
 
 # Disclaimer
-This project has no relations between Inter IKEA Systems B.V. / Ikano Handel Sdn. Bhd. The BLÅHAJ image used on the website was directly linked to the same image that the IKEA website uses.
+```
+This project has no relations between Inter IKEA Systems B.V. / Ikano Handel Sdn. Bhd. Sources of the images as below:
+
+https://www.ikea.com/my/en/p/blahaj-soft-toy-shark-10373589/
+https://www.ikea.com/my/en/p/blahaj-soft-toy-baby-shark-00540664/
+https://www.ikea.com/my/en/p/rumpling-carrier-bag-large-blue-shark-50511683/
+
+Modified to have a border when opened in dark mode.
+```

@@ -48,25 +48,56 @@ body {
 .hyper:link, .hyper:visited, .hyper:hover, .hyper:active {
 	text-decoration: none;
 }
-
-@media (prefers-color-scheme: light) {
-	.hyper:link, .hyper:visited, .hyper:hover, .hyper:active  {
-		color: black;
-	}
-  }
-
-  @media (prefers-color-scheme: dark) {
-	.hyper:link, .hyper:visited, .hyper:hover, .hyper:active  {
-		color: white;
-	}
-  }
   
   h1 {
     font-size: 6em;
   }
 
+  h2 {
+    font-size: 2em;
+  }
 
-.darkmode {
-  background-color: black;
-  color: white;
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: black;
+      color: white;
+    }
+  }
+
+
+  .availability {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    gap: 24px;
+    max-width: 1200px;
+}
+
+.availability li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid #eee;
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 5%);
+}
+
+.availability li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.availability h3,
+.availability h1 {
+    margin: 0;
+}
+
+.availability .restock {
+    color: #888;
+    margin: 0;
+    font-style: italic;
 }
