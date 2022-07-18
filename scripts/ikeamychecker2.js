@@ -10,10 +10,10 @@ function getstock2() {
   xhttp2.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       document.getElementById("detailsPhysical-" + productID2).innerHTML = 
-      "IKEA Batu Kawan: " + xhttp2.response.data[0].availableStocks[0].quantity + 
-      "<br>IKEA Cheras: " + xhttp2.response.data[1].availableStocks[0].quantity + 
-      "<br>IKEA Damansara: " + xhttp2.response.data[2].availableStocks[0].quantity +
-      "<br>IKEA Tebrau: " + xhttp2.response.data[3].availableStocks[0].quantity;
+      "IKEA Cheras: " + xhttp.response.data[0].availableStocks[0].quantity + 
+      "<br>IKEA Damansara: " + xhttp.response.data[1].availableStocks[0].quantity + 
+      "<br>IKEA Tebrau: " + xhttp.response.data[2].availableStocks[0].quantity +
+      "<br>IKEA Batu Kawan: " + xhttp.response.data[3].availableStocks[0].quantity;
     }
   };
   xhttp2.open("GET", "https://api.ingka.ikea.com/cia/availabilities/ru/" + country + "?itemNos=" + productID2 + "&expand=StoresList,Restocks,SalesLocations", true);
