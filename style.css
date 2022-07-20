@@ -7,7 +7,7 @@
     src: url('fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
          url('fonts/Lato-Bold.woff2') format('woff2'), /* Modern Browsers */
          url('fonts/Lato-Bold.woff') format('woff'), /* Modern Browsers */
-         url('fonts/Lato-Bold.ttf') format('truetype');
+         url('fonts/Lato-Bold.ttf') format('truetype'); 
     font-style: bold;
     font-weight: normal;
     text-rendering: optimizeLegibility;
@@ -42,7 +42,7 @@
 }
 
 body {
-    font-family: Helvetica Neue, Roboto, Sans-Serif
+    font-family: LatoWebBold, LatoWeb, Roboto, Sans-Serif
 }
 
 .hyper:link, .hyper:visited, .hyper:hover, .hyper:active {
