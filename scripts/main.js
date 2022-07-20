@@ -254,6 +254,131 @@ function restock12() {
   xhttp.send();
 }
 
+// Below functions are used to check for home delivery availability. This checks for every store with the API.
+
+function homedelivery1() {
+  var country = "my";
+  var productID = "10373589";
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (xhttp.response.data[0].isInHomeDeliveryRange == true) {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product available for home delivery. Click on the product image above to go to the IKEA page for the product to purchase.</i></center>";
+    }
+    else if (xhttp.response.data[1].isInHomeDeliveryRange == true) {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product available for home delivery. Click on the product image above to go to the IKEA page for the product to purchase.</i></center>";
+    }
+    else if (xhttp.response.data[2].isInHomeDeliveryRange == true) {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product available for home delivery. Click on the product image above to go to the IKEA page for the product to purchase.</i></center>";
+    }
+    else if (xhttp.response.data[3].isInHomeDeliveryRange == true) {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product available for home delivery. Click on the product image above to go to the IKEA page for the product to purchase.</i></center>";
+    }
+    else if (xhttp.response.data[0].isInHomeDeliveryRange == false) {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center class=delfail><i>DELIVERY INFORMATION: Product unavailable for home delivery.</i></center>";
+    }
+    else if (xhttp.response.data[1].isInHomeDeliveryRange == false) {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center class=delfail><i>DELIVERY INFORMATION: Product unavailable for home delivery.</i></center>";
+    }
+    else if (xhttp.response.data[2].isInHomeDeliveryRange == false) {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center class=delfail><i>DELIVERY INFORMATION: Product unavailable for home delivery.</i></center>";
+    }
+    else if (xhttp.response.data[3].isInHomeDeliveryRange == false) {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center class=delfail><i>DELIVERY INFORMATION: Product unavailable for home delivery.</i></center>";
+    }
+    else {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center><i>No information from IKEA.</i></center>";
+    }
+  };
+  xhttp.open("GET", "https://api.ingka.ikea.com/cia/availabilities/ru/" + country + "?itemNos=" + productID + "&expand=StoresList,Restocks,SalesLocations", true);
+  xhttp.setRequestHeader("x-client-id","b6c117e5-ae61-4ef5-b4cc-e0b1e37f0631");
+  xhttp.responseType = "json";
+  xhttp.send();
+}
+
+function homedelivery2() {
+  var country = "my";
+  var productID = "00540664";
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (xhttp.response.data[0].isInHomeDeliveryRange == true) {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product available for home delivery. Click on the product image above to go to the IKEA page for the product to purchase.</i></center>";
+    }
+    else if (xhttp.response.data[1].isInHomeDeliveryRange == true) {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product available for home delivery. Click on the product image above to go to the IKEA page for the product to purchase.</i></center>";
+    }
+    else if (xhttp.response.data[2].isInHomeDeliveryRange == true) {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product available for home delivery. Click on the product image above to go to the IKEA page for the product to purchase.</i></center>";
+    }
+    else if (xhttp.response.data[3].isInHomeDeliveryRange == true) {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product available for home delivery. Click on the product image above to go to the IKEA page for the product to purchase.</i></center>";
+    }
+    else if (xhttp.response.data[0].isInHomeDeliveryRange == false) {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center class=delfail><i>DELIVERY INFORMATION: Product unavailable for home delivery.</i></center>";
+    }
+    else if (xhttp.response.data[1].isInHomeDeliveryRange == false) {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center class=delfail><i>DELIVERY INFORMATION: Product unavailable for home delivery.</i></center>";
+    }
+    else if (xhttp.response.data[2].isInHomeDeliveryRange == false) {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center class=delfail><i>DELIVERY INFORMATION: Product unavailable for home delivery.</i></center>";
+    }
+    else if (xhttp.response.data[3].isInHomeDeliveryRange == false) {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center class=delfail><i>DELIVERY INFORMATION: Product unavailable for home delivery.</i></center>";
+    }
+    else {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center><i>No information from IKEA.</i></center>";
+    }
+  };
+  xhttp.open("GET", "https://api.ingka.ikea.com/cia/availabilities/ru/" + country + "?itemNos=" + productID + "&expand=StoresList,Restocks,SalesLocations", true);
+  xhttp.setRequestHeader("x-client-id","b6c117e5-ae61-4ef5-b4cc-e0b1e37f0631");
+  xhttp.responseType = "json";
+  xhttp.send();
+}
+
+function homedelivery3() {
+  var country = "my";
+  var productID = "50511683";
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (xhttp.response.data[0].isInHomeDeliveryRange == true) {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product available for home delivery. Click on the product image above to go to the IKEA page for the product to purchase.</i></center>";
+    }
+    else if (xhttp.response.data[1].isInHomeDeliveryRange == true) {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product available for home delivery. Click on the product image above to go to the IKEA page for the product to purchase.</i></center>";
+    }
+    else if (xhttp.response.data[2].isInHomeDeliveryRange == true) {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product available for home delivery. Click on the product image above to go to the IKEA page for the product to purchase.</i></center>";
+    }
+    else if (xhttp.response.data[3].isInHomeDeliveryRange == true) {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product available for home delivery. Click on the product image above to go to the IKEA page for the product to purchase.</i></center>";
+    }
+    else if (xhttp.response.data[0].isInHomeDeliveryRange == false) {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center class=delfail><i>DELIVERY INFORMATION: Product unavailable for home delivery.</i></center>";
+    }
+    else if (xhttp.response.data[1].isInHomeDeliveryRange == false) {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center class=delfail><i>DELIVERY INFORMATION: Product unavailable for home delivery.</i></center>";
+    }
+    else if (xhttp.response.data[2].isInHomeDeliveryRange == false) {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center class=delfail><i>DELIVERY INFORMATION: Product unavailable for home delivery.</i></center>";
+    }
+    else if (xhttp.response.data[3].isInHomeDeliveryRange == false) {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center class=delfail><i>DELIVERY INFORMATION: Product unavailable for home delivery.</i></center>";
+    }
+    else {
+      document.getElementById("detailsPhysical-" + productID + "-HomeDelivery").innerHTML = "<center><i>No information from IKEA.</i></center>";
+    }
+  };
+  xhttp.open("GET", "https://api.ingka.ikea.com/cia/availabilities/ru/" + country + "?itemNos=" + productID + "&expand=StoresList,Restocks,SalesLocations", true);
+  xhttp.setRequestHeader("x-client-id","b6c117e5-ae61-4ef5-b4cc-e0b1e37f0631");
+  xhttp.responseType = "json";
+  xhttp.send();
+}
+
+function getstockall() {
+  getstock1();
+  getstock2();
+  getstock3();
+}
+
 function restockall() {
   restock1();
   restock2();
@@ -268,9 +393,15 @@ function restockall() {
   restock11();
   restock12();
 }
+
+function homedeliverycheckall() {
+  homedelivery1();
+  homedelivery2();
+  homedelivery3();
+}
+
 function runall() {
-  getstock1();
-  getstock2();
-  getstock3();
+  getstockall();
   restockall();
+  homedeliverycheckall();
 }

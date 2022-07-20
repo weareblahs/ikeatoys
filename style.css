@@ -42,11 +42,11 @@
 }
 
 body {
-    font-family: LatoWebBold, LatoWeb, Roboto, Sans-Serif
+    font-family: LatoWebBold, LatoWeb, Roboto, Sans-Serif;
 }
 
-.hyper:link, .hyper:visited, .hyper:hover, .hyper:active {
-	text-decoration: none;
+a:link{
+  color: inherit;
 }
   
   h1 {
@@ -100,4 +100,14 @@ body {
     color: #888;
     margin: 0;
     font-style: italic;
+}
+
+.delsuccess {
+  background-color: green;
+  color: white;
+}
+
+.delfail {
+  background-color: red;
+  color: white;
 }
