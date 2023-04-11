@@ -16,4 +16,4 @@ Dedicated to the beloved shark toy on IKEA.
 This webpage contacts the JSON API of IKEA Malaysia to get the stock information for each IKEA store in Malaysia (Batu Kawan, Cheras, Damansara and Tebrau). Updates when you refresh - this page won't update every hour like *covidcases*.
 
 ## Where's the page?
-[Here](https://weareblahs.github.io/blahaj).
+[Here](https://weareblahs.github.io/ikeatoys).
