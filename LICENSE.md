@@ -113,5 +113,5 @@ https://www.ikea.com/my/en/p/blahaj-soft-toy-shark-10373589/
 https://www.ikea.com/my/en/p/blahaj-soft-toy-baby-shark-00540664/
 https://www.ikea.com/my/en/p/rumpling-carrier-bag-large-blue-shark-50511683/
 
-Modified to have a border when opened in dark mode.
+Modified to remove the white background on the original product page, and having a border when opened in dark mode.
 ```
