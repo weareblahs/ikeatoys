@@ -1,5 +1,5 @@
 # For Your Information
-Adding new toys, including the DJUNGELSKOG and JATTELIK series of toys, and FAMNIG HJARTA - that's why this project is now called **ikeatoys**. Will start doing it soon after exams. README.md will be changed once started.
+Adding new toys, including the DJUNGELSKOG and JÄTTELIK series of toys, and FAMNIG HJÄRTA - that's why this project is now called **ikeatoys**. Will start doing it soon after exams. README.md will be changed once started.
 
 ![image](https://user-images.githubusercontent.com/37889443/179269126-3857cba0-4a1c-4272-8965-a78f3f80efa5.png)
 # BLÅHAJ?
