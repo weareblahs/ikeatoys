@@ -76,3 +76,10 @@ a {
       color: white;
     }
   }
+
+@media (min-width: 1000px) { 
+      html {
+        display: table;
+        margin: auto;
+      }
+    }
