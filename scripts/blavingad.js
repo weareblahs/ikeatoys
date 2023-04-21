@@ -43,41 +43,41 @@ runall = async() => {
 
   // Restock code finish. Now onto getting delivery info for all stores.
   // The below code is for product 1.
-  if (availabilities[0].isInHomeDeliveryRange) {
-    document.getElementById("detailsPhysical-" + productID1 + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product available for home delivery. Click on the product image above to go to the IKEA page for the product to purchase.</i></center>";
-  } else if (availabilities[2].isInHomeDeliveryRange) {
-    document.getElementById("detailsPhysical-" + productID1 + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product available for home delivery. Click on the product image above to go to the IKEA page for the product to purchase.</i></center>";
-  } else if (availabilities[4].isInHomeDeliveryRange) {
-    document.getElementById("detailsPhysical-" + productID1 + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product available for home delivery. Click on the product image above to go to the IKEA page for the product to purchase.</i></center>";
-  } else if (availabilities[6].isInHomeDeliveryRange) {
-    document.getElementById("detailsPhysical-" + productID1 + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product available for home delivery. Click on the product image above to go to the IKEA page for the product to purchase.</i></center>";
-  } else if (! availabilities[0].isInHomeDeliveryRange) {
+  if (availabilities[0].isInCashAndCarryRange) {
+    document.getElementById("detailsPhysical-" + productID1 + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product might be available for home delivery. Check IKEA website by clicking on the product image above.</i></center>";
+  } else if (availabilities[2].isInCashAndCarryRange) {
+    document.getElementById("detailsPhysical-" + productID1 + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product might be available for home delivery. Check IKEA website by clicking on the product image above.</i></center>";
+  } else if (availabilities[4].isInCashAndCarryRange) {
+    document.getElementById("detailsPhysical-" + productID1 + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product might be available for home delivery. Check IKEA website by clicking on the product image above.</i></center>";
+  } else if (availabilities[6].isInCashAndCarryRange) {
+    document.getElementById("detailsPhysical-" + productID1 + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product might be available for home delivery. Check IKEA website by clicking on the product image above.</i></center>";
+  } else if (! availabilities[0].isInCashAndCarryRange) {
     document.getElementById("detailsPhysical-" + productID1 + "-HomeDelivery").innerHTML = "<center class=delfail><i>DELIVERY INFORMATION: Product unavailable for home delivery.</i></center>";
-  } else if (! availabilities[2].isInHomeDeliveryRange) {
+  } else if (! availabilities[2].isInCashAndCarryRange) {
     document.getElementById("detailsPhysical-" + productID1 + "-HomeDelivery").innerHTML = "<center class=delfail><i>DELIVERY INFORMATION: Product unavailable for home delivery.</i></center>";
-  } else if (! availabilities[4].isInHomeDeliveryRange) {
+  } else if (! availabilities[4].isInCashAndCarryRange) {
     document.getElementById("detailsPhysical-" + productID1 + "-HomeDelivery").innerHTML = "<center class=delfail><i>DELIVERY INFORMATION: Product unavailable for home delivery.</i></center>";
-  } else if (! availabilities[6].isInHomeDeliveryRange) {
+  } else if (! availabilities[6].isInCashAndCarryRange) {
     document.getElementById("detailsPhysical-" + productID1 + "-HomeDelivery").innerHTML = "<center class=delfail><i>DELIVERY INFORMATION: Product unavailable for home delivery.</i></center>";
   } else {
     document.getElementById("detailsPhysical-" + productID1 + "-HomeDelivery").innerHTML = "<center class=delunavail><i>No information from IKEA.</i></center>";
   }
   // The below code is for product 2.
-  if (availabilities[1].isInHomeDeliveryRange) {
-    document.getElementById("detailsPhysical-" + productID2 + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product available for home delivery. Click on the product image above to go to the IKEA page for the product to purchase.</i></center>";
-  } else if (availabilities[3].isInHomeDeliveryRange) {
-    document.getElementById("detailsPhysical-" + productID2 + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product available for home delivery. Click on the product image above to go to the IKEA page for the product to purchase.</i></center>";
-  } else if (availabilities[5].isInHomeDeliveryRange) {
-    document.getElementById("detailsPhysical-" + productID2 + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product available for home delivery. Click on the product image above to go to the IKEA page for the product to purchase.</i></center>";
-  } else if (availabilities[7].isInHomeDeliveryRange) {
-    document.getElementById("detailsPhysical-" + productID2 + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product available for home delivery. Click on the product image above to go to the IKEA page for the product to purchase.</i></center>";
-  } else if (! availabilities[1].isInHomeDeliveryRange) {
+  if (availabilities[1].isInCashAndCarryRange) {
+    document.getElementById("detailsPhysical-" + productID2 + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product might be available for home delivery. Check IKEA website by clicking on the product image above.</i></center>";
+  } else if (availabilities[3].isInCashAndCarryRange) {
+    document.getElementById("detailsPhysical-" + productID2 + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product might be available for home delivery. Check IKEA website by clicking on the product image above.</i></center>";
+  } else if (availabilities[5].isInCashAndCarryRange) {
+    document.getElementById("detailsPhysical-" + productID2 + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product might be available for home delivery. Check IKEA website by clicking on the product image above.</i></center>";
+  } else if (availabilities[7].isInCashAndCarryRange) {
+    document.getElementById("detailsPhysical-" + productID2 + "-HomeDelivery").innerHTML = "<center class=delsuccess><i>DELIVERY INFORMATION: Product might be available for home delivery. Check IKEA website by clicking on the product image above.</i></center>";
+  } else if (! availabilities[1].isInCashAndCarryRange) {
     document.getElementById("detailsPhysical-" + productID2 + "-HomeDelivery").innerHTML = "<center class=delfail><i>DELIVERY INFORMATION: Product unavailable for home delivery.</i></center>";
-  } else if (! availabilities[3].isInHomeDeliveryRange) {
+  } else if (! availabilities[3].isInCashAndCarryRange) {
     document.getElementById("detailsPhysical-" + productID2 + "-HomeDelivery").innerHTML = "<center class=delfail><i>DELIVERY INFORMATION: Product unavailable for home delivery.</i></center>";
-  } else if (! availabilities[5].isInHomeDeliveryRange) {
+  } else if (! availabilities[5].isInCashAndCarryRange) {
     document.getElementById("detailsPhysical-" + productID2 + "-HomeDelivery").innerHTML = "<center class=delfail><i>DELIVERY INFORMATION: Product unavailable for home delivery.</i></center>";
-  } else if (! availabilities[7].isInHomeDeliveryRange) {
+  } else if (! availabilities[7].isInCashAndCarryRange) {
     document.getElementById("detailsPhysical-" + productID2 + "-HomeDelivery").innerHTML = "<center class=delfail><i>DELIVERY INFORMATION: Product unavailable for home delivery.</i></center>";
   } else {
     document.getElementById("detailsPhysical-" + productID2 + "-HomeDelivery").innerHTML = "<center class=delunavail><i>No information from IKEA.</i></center>";
