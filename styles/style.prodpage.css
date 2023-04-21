@@ -3,11 +3,11 @@
 
 @font-face {
     font-family: 'LatoWebBold';
-    src: url('fonts/Lato-Bold.eot'); /* IE9 Compat Modes */
-    src: url('fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/Lato-Bold.woff2') format('woff2'), /* Modern Browsers */
-         url('fonts/Lato-Bold.woff') format('woff'), /* Modern Browsers */
-         url('fonts/Lato-Bold.ttf') format('truetype'); 
+    src: url('../fonts/Lato-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Lato-Bold.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Lato-Bold.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Lato-Bold.ttf') format('truetype'); 
     font-style: bold;
     font-weight: normal;
     text-rendering: optimizeLegibility;
@@ -15,22 +15,36 @@
 
 @font-face {
     font-family: 'LatoWeb';
-    src: url('fonts/Lato-Medium.eot'); /* IE9 Compat Modes */
-    src: url('fonts/Lato-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/Lato-Medium.woff2') format('woff2'), /* Modern Browsers */
-         url('fonts/Lato-Medium.woff') format('woff'), /* Modern Browsers */
-         url('fonts/Lato-Medium.ttf') format('truetype');
+    src: url('../fonts/Lato-Medium.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Lato-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Lato-Medium.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Lato-Medium.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Lato-Medium.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
 }
+.back {
+  width: 8em;
+  border: 15px solid blue;
+  background-color: blue;
+  padding: 0.1em;
+  margin: 1em;
+  font-size:2em;
+  text-align:center;
+}
+/* Link stuffs for "back" option */
+.back a:link { text-decoration: none; }
+.back a:visited { text-decoration: none; }
+.back a:hover { text-decoration: none; }
+.back a:active { text-decoration: none; }
 
 .center-center {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-height: 65%;
+  min-height: 10%;
 }
 
 .centertextv2 {
@@ -43,7 +57,6 @@
 
 body {
     font-family: LatoWebBold, LatoWeb, Roboto, Sans-Serif;
-    margin: 0;
 }
 
 a {
