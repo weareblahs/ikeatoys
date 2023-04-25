@@ -112,10 +112,17 @@ This project has no relations between Inter IKEA Systems B.V. / Ikano Handel Sdn
 https://www.ikea.com/my/en/p/blahaj-soft-toy-shark-10373589/
 https://www.ikea.com/my/en/p/blahaj-soft-toy-baby-shark-00540664/
 https://www.ikea.com/my/en/p/rumpling-carrier-bag-large-blue-shark-50511683/
-https://www.ikea.com/my/en/p/djungelskog-soft-toy-brown-bear-20402831/
 https://www.ikea.com/my/en/p/jaettelik-soft-toy-dinosaur-dinosaur-brontosaurus-30471206/
 https://www.ikea.com/my/en/p/blavingad-soft-toy-blue-whale-80522114/
 https://www.ikea.com/my/en/p/famnig-hjaerta-cushion-red-90136155/
+https://www.ikea.com/my/en/p/djungelskog-soft-toy-brown-bear-20402831/
+https://www.ikea.com/my/en/p/djungelskog-soft-toy-orangutan-30402840/
+https://www.ikea.com/my/en/p/djungelskog-soft-toy-tiger-50408582/
+https://www.ikea.com/my/en/p/djungelskog-soft-toy-lion-60402834/
+https://www.ikea.com/my/en/p/djungelskog-soft-toy-panda-70402843/
+https://www.ikea.com/my/en/p/djungelskog-glove-puppet-snake-burmese-python-40402849/
+https://www.ikea.com/my/en/p/djungelskog-soft-toy-lion-cub-90402837/
+https://www.ikea.com/my/en/p/blavingad-5-piece-soft-toy-set-ocean-animals-mixed-colours-10522117/
 
 Modified to remove the white background on the original product page, and having a border when opened in dark mode.
 ```
