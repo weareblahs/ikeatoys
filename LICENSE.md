@@ -105,9 +105,9 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-# Disclaimer: IKEA-related images
+# Disclaimer: IKEA-related
 ```
-This project has no relations between Inter IKEA Systems B.V. / Ikano Handel Sdn. Bhd. Sources of the images as below:
+This project has no relations between Inter IKEA Systems B.V. / Ikano Handel Sdn. Bhd. Sources of the images and stock informationas below:
 
 https://www.ikea.com/my/en/p/blahaj-soft-toy-shark-10373589/
 https://www.ikea.com/my/en/p/blahaj-soft-toy-baby-shark-00540664/
@@ -123,6 +123,15 @@ https://www.ikea.com/my/en/p/djungelskog-soft-toy-panda-70402843/
 https://www.ikea.com/my/en/p/djungelskog-glove-puppet-snake-burmese-python-40402849/
 https://www.ikea.com/my/en/p/djungelskog-soft-toy-lion-cub-90402837/
 https://www.ikea.com/my/en/p/blavingad-5-piece-soft-toy-set-ocean-animals-mixed-colours-10522117/
+https://www.ikea.com/my/en/p/jaettelik-soft-toy-dinosaur-dinosaur-triceratops-20471216/
+https://www.ikea.com/my/en/p/jaettelik-soft-toy-dinosaur-dinosaur-brontosaurus-30471206/
+https://www.ikea.com/my/en/p/jaettelik-soft-toy-dinosaur-dinosaur-thyrannosaurus-rex-40471197/
+https://www.ikea.com/my/en/p/jaettelik-soft-toy-dinosaur-dinosaur-stegosaurus-60471219/
+https://www.ikea.com/my/en/p/jaettelik-soft-toy-dinosaur-dinosaur-velociraptor-00471203/	
+https://www.ikea.com/my/en/p/jaettelik-soft-toy-egg-dinosaur-dinosaur-ankylosaurus-10471212/
+https://www.ikea.com/my/en/p/jaettelik-towel-with-hood-dinosaur-stegosaurus-green-70479984/
 
-Modified to remove the white background on the original product page, and having a border when opened in dark mode.
+SOURCE INFORMATION: This project uses sources as above by getting the data through the same API used by the official IKEA website.
+
+IMAGE MODIFICATION INFORMATION: Modified to remove the white background on the original product page, and having a border when opened in dark mode.
 ```
