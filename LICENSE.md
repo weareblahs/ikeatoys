@@ -107,7 +107,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 # Disclaimer: IKEA-related
 ```
-This project has no relations between Inter IKEA Systems B.V. / Ikano Handel Sdn. Bhd. Sources of the images and stock informationas below:
+This project has no relations between Inter IKEA Systems B.V. / Ikano Handel Sdn. Bhd. Sources of the images and stock information as below:
 
 https://www.ikea.com/my/en/p/blahaj-soft-toy-shark-10373589/
 https://www.ikea.com/my/en/p/blahaj-soft-toy-baby-shark-00540664/
