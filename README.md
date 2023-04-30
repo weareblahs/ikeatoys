@@ -16,9 +16,5 @@ Top image sourced from IKEAsame on Twitter ([link](https://twitter.com/IKEAsame/
 Data and images sourced from IKEA (for links used and how I use the data, see [here](https://github.com/weareblahs/ikeatoys/blob/main/LICENSE.md#disclaimer-ikea-related)).
 For code licenses, see [License](https://github.com/weareblahs/ikeatoys/blob/main/LICENSE.md).
 
-## What's this all about?
-A simplified page to check the stock of BLÅHAJ soft toy as it's **always** out of stock in Malaysia. There's also a 55cm variation of BLÅHAJ but now it's out of stock.  
-Dedicated to the beloved shark toy on IKEA.
-
 ## Where's the page?
 [Here](https://weareblahs.github.io/ikeatoys).
