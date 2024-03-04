@@ -130,6 +130,10 @@ https://www.ikea.com/my/en/p/jaettelik-soft-toy-dinosaur-dinosaur-stegosaurus-60
 https://www.ikea.com/my/en/p/jaettelik-soft-toy-dinosaur-dinosaur-velociraptor-00471203/	
 https://www.ikea.com/my/en/p/jaettelik-soft-toy-egg-dinosaur-dinosaur-ankylosaurus-10471212/
 https://www.ikea.com/my/en/p/jaettelik-towel-with-hood-dinosaur-stegosaurus-green-70479984/
+https://www.ikea.com/my/en/p/aftonsparv-soft-toy-with-astronaut-suit-bear-20551543/
+https://www.ikea.com/my/en/p/aftonsparv-soft-toy-with-astronaut-suit-rabbit-50551532/
+https://www.ikea.com/my/en/p/aftonsparv-soft-toy-with-astronaut-suit-cat-40551537/
+https://www.ikea.com/my/en/p/aftonsparv-soft-toy-alien-green-20551557/
 
 SOURCE INFORMATION: This project uses sources as above by getting the data through the same API used by the official IKEA website.
 
